@@ -1,0 +1,203 @@
+body{
+    font-family: 'Hind Siliguri', sans-serif;
+}
+.header{
+    background-color: #009270;
+   
+    padding :0px !important;
+}
+.crickbuzz-stadium
+{
+    height: 24rem;
+    width: 77.6rem;
+}
+.menubar
+{
+    padding-left : 2rem;
+    
+}
+.slider{
+    width: 100%;
+    height : 22rem;
+}
+.player-img{
+    height :12rem;
+    width:15rem;
+}
+
+
+/**************************** Home  ************************/
+
+
+.cb-news-main-block{
+    border-right :2px solid rgb(233, 230, 230);
+}
+.cb-news-block{
+    border-bottom:2px solid rgb(233, 230, 230);
+    padding:1.2rem 0rem;
+}
+.cricket-news{
+    font-size:2rem;
+    font-weight: 600;
+}
+.news-image{
+    height:13rem;
+    width:15rem;
+    border-radius: 4px;
+    margin-left:0px;
+    padding-left:0px;
+}
+.cb-news-time{
+    color: #666;
+}
+.cb-news-headline
+{
+    font-size:1.8rem;
+    font-weight: bold;
+    line-height: 2.2rem;
+}
+.schedule-match-block{
+    color: #009270;
+}
+.schedule-match{
+    font-size:1.4rem;
+}
+.schedule-match-time{
+    font-size:1.2rem;
+    color: rgb(141, 138, 138);
+}
+
+
+
+/* ************************** Country ********************** */
+
+.country-button{
+    width:13rem;
+    height :4rem;
+    border:none;
+    background-color : rgb(5, 95, 107);
+    /* background-color: #009270; */
+    margin-top: 0.5rem;
+    color: white;
+    border-radius: 0.5rem;
+    padding : 0.5rem 1rem;
+    margin-left: 1.3rem;
+    margin-top : 1rem;
+    
+    text-shadow: 1px 1px 1px #aaa;
+}
+
+.country-name{
+    height:4rem;
+    border:1px solid rgb(8, 204, 8);
+    border-bottom: 4px solid rgb(3, 143, 3,0.5);
+    text-align: center;
+    padding-top :0.8rem;
+    font-weight: bold;
+    /* font: 19px/24px Bhaskar_Web_Head_Test_exp, 'Noto Sans'; */
+    color : rgb(51, 51, 51);
+    /* text-shadow: 1px 1px 2px #aaa; */
+    font-size:1.1rem;
+}
+.country-name:hover{
+    transition: 0.3s all;
+    transform: translateY(-10px);
+}
+
+
+/* *************************** Fixture ******************************/
+
+.match-block-t20i{
+    border-bottom: 1px solid #dae0e4;
+    color: #001036;
+}
+
+.match-block
+{
+    border-right:1px solid #dae0e4;
+    border-left:1px solid #dae0e4;
+}
+
+.match-block_type {
+    border-radius: 2px;
+    background: #fa0ceb;
+    color: #fff;
+    width: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+.match-block-time{
+    color : gray;
+}
+.match-block_status {
+    border : 1px solid #dae0e4;
+    color: rgb(17, 17, 17);
+    width: 6rem;
+    padding :0.6rem 0rem;
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+}
+.match-block_status:hover{
+    background-color:#fa0ceb;
+    color:white;
+}
+.total-overs-played{
+    color:gray;
+}
+
+/************************ LiveScores **************************/
+.livescore-card{
+    width:800px;
+}
+.livescore-venue{
+    border-top :1px solid rgb(211, 207, 207);
+}
+.livescore-season{
+    text-align:center;
+    padding-bottom: 3px;
+    font-style: italic;
+}
+.livescore-scoreboard{
+    /* border-top: 1px solid rgb(211, 207, 207); */
+    border-bottom:1px solid rgb(211, 207, 207);
+    font-size: 1.3rem;
+}
+.livescore{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.0), 0 6px 20px 0 rgba(0, 0, 0, 0.0),0 4px 8px 0 rgba(0, 0, 0, 0.1),0 6px 20px 0 rgba(0, 0, 0, 0.0);
+}
+.livescore-block_type {
+    border-radius: 1rem;
+    background: black;
+    color: #fff;
+    width: 3rem;
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase; 
+    font-size: 0.7rem;
+}
+.livescore-venue-date{
+    font-size: 0.9rem;
+}
+
+
+/*************************** Footer *******************/
+.footer{
+    background-color: rgb(74,74,74);
+    color:rgb(255,255,255);
+}
+.footer-menu{
+    list-style: none;
+}
+.footer-font{
+    font-size : 0.8rem;
+}
+.footer-list
+{
+    font-size : 0.9rem;
+    font-weight: 600;
+}
+.footer-copyright{
+    color: rgb(175, 174, 174);    
+}
