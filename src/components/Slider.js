@@ -8,7 +8,6 @@ import {
 } from 'reactstrap';
 import first from '../images/first_slide.jpg'; 
 import second from '../images/second_slide.jpg'; 
-// import third from '../images/third_slide.jpg'; 
 import cricketStadium from '../images/cricket_stadium.jpg'; 
 
 const items = [

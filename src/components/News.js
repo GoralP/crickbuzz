@@ -303,15 +303,9 @@ const News = () => {
                         <div className="col-md-12 schedule-match-time">
                         Wed Jul 08 • 3:30 PM GMT
                         </div>
-                    </div>  
-
+                    </div> 
                 </div>
-
-                
-
             </div>
-
-
         </div> 
     </div>
   );

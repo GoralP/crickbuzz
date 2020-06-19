@@ -3,7 +3,6 @@ const initialState = {
     players: null,
     fixture: { loading: false, fixtures: null },
     country :{loading: false, countries: null},
-    livescore : {loading: false, livescores : null}
   };
   
   const playersReducer = (state = initialState, action) => {
@@ -20,10 +19,6 @@ const initialState = {
         return { ...state, country: { loading: true, countries: null } };
       case "COUNTRIES_FETCH_SUCCESS":
         return { ...state, country: { loading: false, countries: action.countries } }; 
-      case "LIVESCORE_FETCH_PENDING":
-        return { ...state, country: { loading: true, livescores: null } };
-      case "LIVESCORE_FETCH_SUCCESS":
-        return { ...state, country: { loading: false, livescores: action.livescores } };   
       default:
         return { ...state };
     }

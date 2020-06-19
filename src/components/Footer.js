@@ -1,22 +1,17 @@
 import React from "react";
-import { Link } from "@reach/router";
-import  {Table} from "reactstrap";
-import Moment from "react-moment";
 import crickbuzzFooter from '../images/crickbuzz_footer.PNG';
 
-const Footer = ({type, date, note,total_overs_played, status}) => {
+const Footer = () => {
   return (
     <div className="footer mt-3" >
       <div>
-         <div className="container">
-            <div className="row pt-4" >
-
+         <div className="container-fluid">
+            <div className="row pt-4">
                <div className="col-sm-2 ">
                   <div className="row">
-               <img  src={crickbuzzFooter} alt="crickbuzz"/>
+                     <img  src={crickbuzzFooter} alt="crickbuzz"/>
+                  </div>
                </div>
-               </div>
-
 
                <div className="col-sm-2 footer-font" >
                   <ul className="footer-menu" >
@@ -24,9 +19,9 @@ const Footer = ({type, date, note,total_overs_played, status}) => {
                      <li>Live Scores Index</li>
                      <li>Men's Results</li>
                      <li>Women's Results</li>
-                     
                   </ul>
                </div>
+
                <div className="col-sm-2 footer-font" >
                   <ul className="footer-menu" >
                      <h4 className="menu-title footer-list" >EVENTS</h4>
@@ -48,6 +43,7 @@ const Footer = ({type, date, note,total_overs_played, status}) => {
                      <li>Rankings FAQs</li>
                   </ul>
                </div>
+
                <div className="col-sm-2 footer-font" >
                   <ul className="footer-menu" >
                      <h4 className="menu-title footer-list" >NEWS</h4>
@@ -57,6 +53,7 @@ const Footer = ({type, date, note,total_overs_played, status}) => {
                      <li>Photos</li>
                   </ul>
                </div>
+
                <div className="col-sm-2 footer-font" >
                   <ul className="footer-menu" >
                      <h4 className="menu-title footer-list" >MORE</h4>
@@ -77,7 +74,6 @@ const Footer = ({type, date, note,total_overs_played, status}) => {
             </div>
          </div>
       </div>
-     
    </div>
   );
 };
